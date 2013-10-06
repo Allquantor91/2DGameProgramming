@@ -86,19 +86,15 @@ public class ConfigParser {
 		String[] keyValue = config.split(keyValueDelimiter);
 		String key = keyValue[0];
 		String value = keyValue[1];
-		/*switch (key) {
-		case "width":
+		if(key.equals("width")){
 			Configuration.width = Integer.parseInt(value);
-			break;
-		case "height":
+		}else if(key.equals("height")){
 			Configuration.height = Integer.parseInt(value);
-			break;
-		case "fullscreen":
+		}else if(key.equals("fullscreen")){
 			Configuration.fullScreen = Boolean.parseBoolean(value);
-			break;
-		default:
+		}else{
 			Logger.error(key + " was not found in my config");
-		}*/
+		}
 	}
 
 	/**
