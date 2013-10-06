@@ -1,0 +1,6 @@
+LOG 10/06/2013 00:52:53 width=800
+LOG 10/06/2013 00:52:53 height=600
+LOG 10/06/2013 00:52:53 fullScreen=false
+LOG 10/06/2013 01:22:45 width=800
+LOG 10/06/2013 01:22:45 height=600
+LOG 10/06/2013 01:22:45 fullScreen=false
